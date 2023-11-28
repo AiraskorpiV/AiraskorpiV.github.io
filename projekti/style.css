@@ -1,0 +1,32 @@
+html { 
+
+    background: #ece7d1;
+}
+
+
+h1 { 
+    text-align: center;
+    background: pink;
+    border: 2px solid;
+}
+
+.napit-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.napit-lista li {
+    display: inline-block;
+    margin-right: 10px; /* Lisää väliä napin ja seuraavan napin välille */
+}
+
+.napit-lista li:last-child {
+    margin-right: 0; /* Poistaa marginaalin viimeisen napin jälkeen */
+}
+
+h2 {
+
+    text-align: center;
+ }
