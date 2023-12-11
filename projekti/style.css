@@ -1,20 +1,41 @@
 html { 
+    
+    background-image: url(vesi.jpg); 
+            background-size: cover; 
 
-    background: #ece7d1;
+    
 }
 
 
 h1 { 
     text-align: center;
-    background: pink;
     border: 2px solid;
+    padding: 80px;
+    font-size: 70px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+	font-family: 'Amatic SC', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Pinyon Script', cursive;
 }
 
 .napit-lista {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+
+    margin: 20px;
     text-align: center;
+    
+}
+
+p { 
+
+    text-align: center;
+    color: #F2D1D7;
+    padding: 20px;
+
 }
 
 .napit-lista li {
@@ -26,7 +47,73 @@ h1 {
     margin-right: 0; /* Poistaa marginaalin viimeisen napin jälkeen */
 }
 
+
+.napit-lista a {
+    color: #F2D1D7; /* Linkkien väri */
+    text-decoration: none; /* Poistaa linkkien alleviivauksen */
+}
+
+.napit-lista a:hover {
+    color: black; /* Linkkien väri hover-tilassa */
+}
+
+
 h2 {
 
     text-align: center;
+    color: #F2D1D7;
  }
+
+ 
+ .kuvat-rivi {
+    display: flex;
+    justify-content: space-between; /* Tasaa kuvat vaakasuunnassa ja jakaa tilan tasaisesti */
+    align-items: center; /* Keskitä kuvat pystysuunnassa */
+
+
+}
+
+
+.kuvat-rivi img {
+    max-width: 100%; /* Rajoita kuvien maksimileveys */
+    height: auto; /* Säilytä kuvan alkuperäinen korkeus-suhteen mukaisesti */
+    width: 25%; /* Jaa neljään osaan leveydestä, jotta kaikki mahtuvat yhteen riviin */
+
+}
+
+body { 
+
+    border: 5px solid;
+    color: #F2D1D7;
+    max-width: 800px;
+    margin: auto;
+    background: #696865;
+    padding: 30px;
+    
+
+
+}
+
+footer { 
+
+   
+
+    
+
+    flex-shrink: 0; /* Estää footeria kutistumasta */
+    background-color: #F2D1D7;
+    color: #696865;
+    padding: 10px;
+    margin-top: auto;
+
+}
+.alavalikko { 
+
+    list-style-type: none;
+    padding: 0;
+
+    margin: 20px;
+    text-align: center;
+  
+   
+}
