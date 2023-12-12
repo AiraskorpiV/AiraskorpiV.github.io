@@ -10,22 +10,20 @@ html {
 h1 { 
     text-align: center;
     border: 2px solid;
-    font-size: 30px;
+    font-size: 60px;
     padding: 80px;
-    font-size: 70px;
     background-image: url(vesi.jpg); 
-
-    margin-left: 50px;
-    margin-right: 50px;
 
 	font-family: 'Amatic SC', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Pinyon Script', cursive;
 }
 
-@media only screen and (max-width: 600px)
-
-
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px; /* Pienempi fonttikoko pienemmille näytöille */
+    }
+}
 
 
 .napit-lista {
@@ -191,3 +189,5 @@ li:hover .sub-menu {
     display: block;
 }
   
+
+
