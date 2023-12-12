@@ -2,7 +2,7 @@ html {
     
     background-image: url(vesi.jpg); 
             background-size: cover; 
-
+        padding: 40px;
     
 }
 
@@ -12,6 +12,7 @@ h1 {
     border: 2px solid;
     padding: 80px;
     font-size: 70px;
+    background-image: url(vesi.jpg); 
 
     margin-left: 50px;
     margin-right: 50px;
@@ -54,7 +55,7 @@ p {
 }
 
 .napit-lista a:hover {
-    color: black; /* Linkkien väri hover-tilassa */
+    color: #F2D1D7; /* Linkkien väri hover-tilassa */
 }
 
 
@@ -94,6 +95,36 @@ body {
 
 }
 
+
+.tekti-yks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.tekti-yks .side-by-side {
+    flex: 1;
+    padding: 0 10px;
+    box-sizing: border-box;
+    
+}
+
+.tekti-kaks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.tekti-kaks .side-by-side {
+    flex: 1;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
 footer { 
 
    
@@ -101,10 +132,11 @@ footer {
     
 
     flex-shrink: 0; /* Estää footeria kutistumasta */
-    background-color: #F2D1D7;
-    color: #696865;
+    background-image: url(vesi.jpg); 
+    color: #F2D1D7;
     padding: 10px;
     margin-top: auto;
+
 
 }
 .alavalikko { 
@@ -114,6 +146,40 @@ footer {
 
     margin: 20px;
     text-align: center;
-  
+   
    
 }
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #F2D1D7;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+/* Alavalikkojen tyyli */
+.sub-menu {
+    display: none;
+    margin-left: 20px;
+}
+
+li:hover .sub-menu {
+    display: block;
+}
+  
