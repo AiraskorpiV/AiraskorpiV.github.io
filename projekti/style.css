@@ -10,6 +10,7 @@ html {
 h1 { 
     text-align: center;
     border: 2px solid;
+    font-size: 30px;
     padding: 80px;
     font-size: 70px;
     background-image: url(vesi.jpg); 
@@ -21,6 +22,11 @@ h1 {
 font-family: 'Lora', serif;
 font-family: 'Pinyon Script', cursive;
 }
+
+@media only screen and (max-width: 600px)
+
+
+
 
 .napit-lista {
     list-style-type: none;
@@ -90,7 +96,9 @@ body {
     margin: auto;
     background: #696865;
     padding: 30px;
-    
+    font-family: 'Barlow', sans-serif;
+font-family: 'Oswald', sans-serif;
+
 
 
 }
